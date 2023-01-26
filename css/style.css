@@ -41,7 +41,7 @@
 }
 
 header{
-  height: 200px;
+  height: 50px;
   margin-bottom: 100px;
 }
 
@@ -63,8 +63,11 @@ p,a{
 
 .breadcrumb a,li{
   color:white;
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'ZillaSlab-Medium';
+}
+.breadcrumb-item a{
+  color:white;
 }
 
 /* HEADER */
@@ -92,13 +95,13 @@ p,a{
 
 .navbar-text{
   color: #FEEAFA;
-  height: 100px;
+  height: 80px;
 }
 
 .navbar a{
   font-family: 'ZillaSlab-Regular';
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
   color: white;
 }
@@ -127,7 +130,7 @@ a:hover{
 }
 
 .logo img{
-  height: 150px;
+  height: 50px;
   width: auto;
 }
 
@@ -182,7 +185,7 @@ a:hover{
 } 
 
 #map {
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 
@@ -296,10 +299,7 @@ form, .form-group {
   font-size: 20px;
 }
 
-.actu a{
-  color:#7A6263;
-  
-}
+
 .actu a:hover{
   color:#7EBDC3;
 }
